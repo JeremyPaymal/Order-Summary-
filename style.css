@@ -28,12 +28,9 @@ body {
   min-height: 100vh;
 }
 
-button {
-  cursor: pointer;
-}
-
 a {
   font-weight: 700;
+  cursor: pointer;
 }
 
 main {
@@ -115,7 +112,7 @@ main {
   padding: 1rem 0;
   border-radius: 0.5rem;
 }
-.process_btn a {
+.process_btn {
   color: white;
 }
 .process_btn:hover {
@@ -125,10 +122,10 @@ main {
 .cancel_btn {
   background-color: white;
 }
-.cancel_btn a {
+.cancel_btn {
   color: rgba(0, 0, 0, 0.5);
 }
-.cancel_btn:hover a {
+.cancel_btn:hover  {
   color: black;
 }
 
